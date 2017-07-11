@@ -1,57 +1,12 @@
+@import url("header.css");
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
-    background: #304362;
-    border-bottom: 5px solid #F5A434;
-    padding: 10px;
-}
-
-header nav {
-    width: 92%;
-}
-#header-wrapper {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.head-nav {
-    text-align: right;
-    width: 99%;
-}
-
-.nav-item {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.nav-item a {
-    color: #fff;
-    margin: 10px;
-    padding: 15px;
-    text-decoration: none;
-    border: 1px solid #304362;
-    font-weight: normal;
-    text-transform: uppercase;
-}
-
-.nav-item a:hover {
-    border: 1px solid #F5A434;
-}
-
-.logo {
-    float: left;
-    width: 280px;
-    height: 70px;
-}
-
-.logo img {
-    max-width: 100%;
-    height: auto;
-}
+/*MAIN*/
 
 .news {
     background: url("images/nakov.jpg") no-repeat;
@@ -90,4 +45,155 @@ header nav {
     color: #273144;
     font-weight: lighter;
     font-size: 240%;
+}
+
+.country-side {
+    background: #E2E2E2;
+    padding-top: 1px;
+    height: auto;
+}
+
+.country-wrap {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map {
+    width: 70%;
+    padding-top: 10px;
+    position: relative;
+}
+
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+.country-text-wrap {
+    width: 20%;
+}
+
+.country-title {
+    color: #394868;
+    text-transform: uppercase;
+    font-size: 200%;
+    letter-spacing: 7.5px;
+    font-weight: normal;
+}
+
+.simple-text, .country-text {
+    color: #9D9D9F;
+}
+
+.simple-text {
+    font-weight: bold;
+    font-size: 125%;
+    padding-bottom: 30px;
+}
+
+.lang {
+    position: absolute;
+    color: #304362;
+}
+
+.js {
+    position: absolute;
+    color: #304362;
+    font-weight: bold;
+    top: 90px;
+    left: 230px;
+    font-size: 24px;
+}
+
+.lang:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.sql {
+    font-weight: bold;
+    font-size: 24px;
+    top: 90px;
+    left: 390px;
+}
+
+.web-fund {
+    font-weight: bold;
+    font-size: 24px;
+    top: 200px;
+    left: 350px;
+}
+
+.c-sharp {
+    font-weight: 900;
+    font-size: 35px;
+    bottom: 270px;
+    left: 300px;
+}
+
+.java {
+    font-weight: 900;
+    font-size: 35px;
+    bottom: 250px;
+    right: 230px;
+}
+
+.php {
+    font-weight: 900;
+    font-size: 35px;
+    bottom: 100px;
+    right: 310px;
+}
+
+.president {
+    background: #234465;
+    padding-top: 1px;
+}
+
+.president-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.president-img {
+    width: 25%;
+    position: relative;
+}
+
+.president-img img {
+    position: inherit;
+    bottom: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+.thumb {
+    width: 50%;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.pres-text {
+    color: #fff;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.thumb {
+    width: 50%;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.fa-thumbs-up {
+    color: #193149;
+}
+
+.thumb .fa {
+    font-size: 10em;
 }
