@@ -1,4 +1,5 @@
 @import url("header.css");
+@import url("footer.css");
 
 body {
     margin: 0;
@@ -196,4 +197,36 @@ body {
 
 .thumb .fa {
     font-size: 10em;
+}
+
+.community {
+    background: #E2E2E4;
+}
+
+.comm-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 1px;
+    height: 190px;
+}
+
+.comm-text {
+    text-align: center;
+}
+
+.comm-title {
+    color: #234465;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.comm-text a {
+    color: #F5A434;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: normal;
+    border: 2px solid #234465;
+    padding: 5px 25px;
+    text-transform: uppercase;
 }
