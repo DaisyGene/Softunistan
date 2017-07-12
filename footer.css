@@ -1,0 +1,57 @@
+/*FOOTER*/
+
+footer {
+    background: #234465;
+    padding-top: 1px;
+}
+
+.foot-wrap {
+    width: 80%;
+    margin: 25px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.foot-item {
+    width: 33%;
+    height: 300px;
+    color: #ffffff;
+    font-size: 1.9em;
+}
+
+.foot-news, .foot-social {
+    text-align: center;
+}
+
+.foot-cont {
+    background: url("images/map-foot.png")no-repeat;
+    opacity: 0.3;
+}
+
+.cont-text {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.cont-text p {
+    font-size: 1em;
+}
+
+.br {
+    background: #F5A434;
+    width: 2px;
+    height: 190px;
+}
+
+.foot-social ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 67px;
+    opacity: 0.3;
+}
