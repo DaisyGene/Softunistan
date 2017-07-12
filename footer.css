@@ -55,3 +55,8 @@ footer {
     margin-left: 67px;
     opacity: 0.3;
 }
+
+.foot-social img {
+    max-width: 100%;
+    height: auto;
+}
