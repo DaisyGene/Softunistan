@@ -1,0 +1,93 @@
+@import "header.css";
+@import "footer.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: #E2E2E2;
+}
+
+.head-transparent {
+    background: url("images/head-country.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 1px;
+}
+
+.transparent-title {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    line-height: 245px;
+}
+
+.laws {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.laws-text{
+    color: #807F85;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.municipalities {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.municipalities-title {
+    width: 50%;
+
+}
+
+.municipalities-title h3 {
+    text-align: right;
+    color: #1A446C;
+    text-transform: uppercase;
+    font-size: 1.9em;
+}
+
+.mayors-title {
+    width: 49%;
+    padding-top: 10px;
+    margin-left: 5px;
+    color: #989898;
+
+}
+
+.mayors {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mayor {
+    width: 33%;
+}
+
+.mayor img {
+    width: 150px;
+    padding-left: 25px;
+    max-width: 100%;
+    height: auto;
+}
+
+.mayor-lang {
+    color: #16304B;
+    font-size: 1.3em;
+}
+
+.mayor-name {
+    color: #16304B;
+    letter-spacing: 0.5px;
+}
