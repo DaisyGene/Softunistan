@@ -1,4 +1,4 @@
-/*HEADER*/
+<style>
 
 header {
     background: #304362;
@@ -65,7 +65,53 @@ main {
     padding-top: 1px;
 }
 
-/*FOOTER*/
+.mainTitle{
+    text-align:center;
+    background-image: url("imageFile.png");
+
+}
+ .mainTitle:hover {
+    background-color: #f7941d;
+    font-style:italic;
+    
+}
+
+.smallTitle{
+  text-align: center;
+  text-
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #16304B;
+    background: #e2e2e2;
+    
+    }
+    
+ @font-face {
+    font-family: 'Rubik-Regular';
+    src: url('fonts/rubik/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+ .description{
+   color:#183048;
+   font-weight:600;
+   
+   }
+   
+   .choice
+   {
+   color:#183048;
+   
+   }
+   .choice:hover {
+    font-weight: bold;
+    
+   }
 
 footer {
     background: #234465;
@@ -127,3 +173,4 @@ footer {
     max-width: 100%;
     height: auto;
 }
+</style>
