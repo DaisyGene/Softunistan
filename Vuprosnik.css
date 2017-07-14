@@ -106,9 +106,10 @@ body {
     font-style: normal;
 }
  
- .form-wrapper{
+ #form-wrapper{
    width: 80%;
    margin: 0 auto;
+     text-align: center;
    }
    
  .description{
