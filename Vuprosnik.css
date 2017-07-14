@@ -71,14 +71,20 @@ main {
 
 }
  .mainTitle:hover {
-    background-color: #f7941d;
-    font-style:italic;
+    border: 3px solid #F5A434;
+    transition-duration: 0.3s;
+  
     
 }
 
 .smallTitle{
   text-align: center;
-  text-
+  
+  }
+  
+  .more_info{
+  width: 80%;
+  margin: 0 auto;
   }
 
 body {
@@ -97,21 +103,56 @@ body {
     font-style: normal;
 }
  
+ .form-wrapper{
+   width: 80%;
+   margin: 0 auto;
+   }
+   
  .description{
    color:#183048;
    font-weight:600;
    
    }
    
+  h1 {
+     background-image:"https://softuni.bg/content/images/software-university-logo.png;
+     
+     }
+     
    .choice
    {
    color:#183048;
+   width: 80%;
+  margin: 0 auto;
+   
    
    }
    .choice:hover {
     font-weight: bold;
     
    }
+   
+   .button_text {
+     background-color: #234465;
+     color: #f7941d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-transition-duration: 0.4s;  
+    transition-duration: 0.4s;
+   }
+   
+ 
+ .button_text:hover{
+    background-color:  #f7941d;   
+    color: #234465;
+}
+    
+     
+     {
 
 footer {
     background: #234465;
