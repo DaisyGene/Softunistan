@@ -67,7 +67,9 @@ main {
 
 .mainTitle{
     text-align:center;
-    background-image: url("imageFile.png");
+    background: url("images/head-country.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 1px;
 
 }
  .mainTitle:hover {
