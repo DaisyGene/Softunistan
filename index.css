@@ -7,6 +7,64 @@ body {
     box-sizing: border-box;
 }
 
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('fonts/rubik/Rubik-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('fonts/rubik/Rubik-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-LightItalic';
+    src: url('fonts/rubik/Rubik-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('fonts/rubik/Rubik-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-MediumItalic';
+    src: url('fonts/rubik/Rubik-MediumItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('fonts/rubik/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'georgiaz';
+    src: url('fonts/georgia/georgiaz.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'georgiai';
+    src: url('fonts/georgia/georgiai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*MAIN*/
 
 .news {
@@ -27,25 +85,30 @@ body {
 
 .news-day {
     color: #F5A434;
-    font-size: 350%;
     text-transform: uppercase;
-    font-weight: lighter;
+    font-family: 'Rubik-Light', arial;
+    font-size: 40px;
+    letter-spacing: 10px;
+    font-weight:lighter;
 }
 
 .warning {
     color: #DADADA;
-    font-size: 269% ;
+    font-size: 360% ;
+    font-family: 'Rubik-Light', arial;
+    letter-spacing: 2px;
 }
 
 .warning span {
     font-weight: bold;
     text-transform: uppercase;
+    font-family: 'Rubik-Bold';
 }
 
 .danger {
     color: #273144;
-    font-weight: lighter;
-    font-size: 240%;
+    font-family: 'Rubik-Light', arial;
+    font-size: 220%;
 }
 
 .country-side {
@@ -79,19 +142,21 @@ body {
 .country-title {
     color: #394868;
     text-transform: uppercase;
-    font-size: 200%;
+    font-size: 300%;
     letter-spacing: 7.5px;
-    font-weight: normal;
+    font-family: 'Rubik-Light', arial;
 }
 
 .simple-text, .country-text {
     color: #9D9D9F;
+    font-family: 'Rubik-Light', arial;
 }
 
 .simple-text {
-    font-weight: bold;
-    font-size: 125%;
+    font-size: 200%;
     padding-bottom: 30px;
+   font-family: 'georgiai';
+   text-align: center;
 }
 
 .lang {
@@ -102,9 +167,9 @@ body {
 .js {
     position: absolute;
     color: #304362;
-    font-weight: bold;
+    font-family: 'Rubik-Bold';
     top: 90px;
-    left: 230px;
+    left: 300px;
     font-size: 24px;
 }
 
@@ -114,17 +179,17 @@ body {
 }
 
 .sql {
-    font-weight: bold;
+    font-family: 'Rubik-Bold';
     font-size: 24px;
     top: 90px;
-    left: 390px;
+    left: 450px;
 }
 
 .web-fund {
-    font-weight: bold;
+    font-family: 'Rubik-Bold';
     font-size: 24px;
-    top: 200px;
-    left: 350px;
+    top: 250px;
+    left: 450px;
 }
 
 .c-sharp {
@@ -180,8 +245,11 @@ body {
 
 .pres-text {
     color: #fff;
-    font-style: italic;
     font-size: 2em;
+    font-family: 'georgiai';
+    text-align: left;
+    padding-left: 50px;
+
 }
 
 .thumb {
@@ -205,9 +273,9 @@ body {
 
 .comm-wrapper {
     width: 80%;
-    margin: 0 auto;
-    padding-top: 1px;
-    height: 190px;
+    margin: auto;
+    padding-top: 120px;
+    height: 440px;
 }
 
 .comm-text {
@@ -217,16 +285,19 @@ body {
 .comm-title {
     color: #234465;
     font-size: 2.5em;
-    font-weight: normal;
+    font-family: 'Rubik-Light';
     text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 6px;
+
+
 }
 
 .comm-text a {
     color: #F5A434;
     text-decoration: none;
     font-size: 1.5em;
-    font-weight: normal;
     border: 2px solid #234465;
-    padding: 5px 25px;
+    padding: 15px 30px;
     text-transform: uppercase;
 }
