@@ -70,6 +70,8 @@ main {
 
 .mainTitle{
     text-align:center;
+    text-shadow: 0 0 0.2em #257, 0 0 0.2em #257,
+        0 0 0.2em #257
     color: #f7941d;
     background: url("images/head-country.jpg") no-repeat center;
     background-size: cover;
