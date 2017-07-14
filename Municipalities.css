@@ -1,0 +1,168 @@
+@import url("header.css");
+@import url("footer.css");
+
+header {
+    background: #304362;
+    border-bottom: 5px solid #F5A434;
+    padding: 10px;
+}
+
+header nav {
+    width: 92%;
+}
+#header-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.head-nav {
+    text-align: right;
+    width: 99%;
+}
+
+.nav-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-item a {
+    color: #fff;
+    margin: 10px;
+    padding: 15px;
+    text-decoration: none;
+    border: 1px solid #304362;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.nav-item a:hover {
+    border: 1px solid #F5A434;
+}
+
+.logo {
+    float: left;
+    width: 280px;
+    height: 70px;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #16304B;
+    background: #e2e2e2;
+}
+
+main {
+    background: #E2E2E2;
+}
+
+
+h1{
+    text-align:center;
+    color: #183048;;
+    padding-top: 1px;
+
+}
+ 
+
+
+h2{
+  text-align: center;
+  
+  }
+
+h3{
+  text-align: center;
+  
+  }
+  
+  .more_info{
+  width: 80%;
+  margin: 0 auto;
+  }
+
+  
+article{
+  text-align: center;
+  
+  }
+    
+ @font-face {
+    font-family: 'Rubik-Regular';
+    src: url('fonts/rubik/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+ 
+   
+   }
+   
+
+
+footer {
+    background: #234465;
+    padding-top: 1px;
+}
+
+.foot-wrap {
+    width: 80%;
+    margin: 25px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.foot-item {
+    width: 33%;
+    height: 300px;
+    color: #ffffff;
+    font-size: 1.9em;
+}
+
+.foot-news, .foot-social {
+    text-align: center;
+}
+
+.foot-cont {
+    background: url("images/map-foot.png")no-repeat;
+    opacity: 0.3;
+}
+
+.cont-text {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.cont-text p {
+    font-size: 1em;
+}
+
+.br {
+    background: #F5A434;
+    width: 2px;
+    height: 190px;
+}
+
+.foot-social ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 67px;
+    opacity: 0.3;
+}
+
+.foot-social img {
+    max-width: 100%;
+    height: auto;
+}
