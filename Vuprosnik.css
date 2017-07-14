@@ -1,4 +1,5 @@
-<style>
+@import url("header.css");
+@import url("footer.css");
 
 header {
     background: #304362;
@@ -216,4 +217,3 @@ footer {
     max-width: 100%;
     height: auto;
 }
-</style>
