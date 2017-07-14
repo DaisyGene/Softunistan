@@ -94,14 +94,6 @@ main {
   margin: 0 auto;
   }
 
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #16304B;
-    background: #e2e2e2;
-    
-    }
     
  @font-face {
     font-family: 'Rubik-Regular';
