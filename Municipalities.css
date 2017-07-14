@@ -81,6 +81,10 @@ h3{
   text-align: center;
   
   }
+
+h3:hover {
+    border: 3px solid #F5A434;
+    transition-duration: 0.3s;
   
   .more_info{
   width: 80%;
