@@ -1,0 +1,318 @@
+@media all and (max-width: 1024px) {
+    /*Header*/
+    #header-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .logo {
+        float: none;
+        width: 25%;
+        padding-top: 30px;
+    }
+
+    header nav {
+        width: 75%;
+    }
+    /*End Header*/
+    .news {
+        background: url("images/nakov.jpg") no-repeat center;
+        background-size: cover;
+    }
+
+    .map img {
+        width: 85%;
+    }
+
+    .js {
+        top: 73px;
+        left: 80px;
+        font-size: 17px;
+    }
+
+    .sql {
+        font-size: 16px;
+        top: 40px;
+        left: 195px;
+    }
+
+    .web-fund {
+        font-size: 17px;
+        top: 100px;
+        left: 157px;
+    }
+
+    .c-sharp {
+        font-weight: 900;
+        font-size: 20px;
+        top: 150px;
+        left: 150px;
+    }
+
+    .java {
+        right: 193px;
+        font-size: 17px;
+        top: 155px;
+    }
+
+    .php {
+        font-size: 17px;
+        right: 245px;
+        top: 250px;
+    }
+    /*Footer*/
+    .cont-text {
+        width: 30%;
+        font-size: 1.2em;
+    }
+
+    .socials {
+        width: 30%;
+    }
+
+    .foot-cont {
+        background: none;
+    }
+    /*End Footer*/
+}
+
+@media all and (max-width: 960px) {
+    /*Header*/
+
+    .head-nav {
+        display: flex;
+    }
+
+    .news-text-wrap h1,
+    .news-text-wrap p {
+        font-size: 2.5em;
+    }
+    /*End Header*/
+
+    .map,
+    .map img,
+    .country-text-wrap {
+        width: 100%;
+    }
+
+    .country-title {
+        text-align: center;
+    }
+
+    .js {
+        top: 130px;
+        left: 157px;
+        font-size: 20px;
+    }
+
+    .web-fund {
+        font-size: 20px;
+        top: 165px;
+        left: 280px;
+    }
+
+    .sql {
+        font-size: 20px;
+        top: 60px;
+        left: 325px;
+    }
+
+    .java {
+        right: 193px;
+        font-size: 20px;
+        top: 260px;
+    }
+
+    .php {
+        font-size: 20px;
+        right: 275px;
+        top: 385px;
+    }
+
+    .c-sharp {
+        font-weight: 900;
+        font-size: 30px;
+        top: 225px;
+        left: 220px;
+    }
+
+    /*Footer*/
+
+    .foot-item {
+        height: auto;
+        font-size: 1.5em;
+    }
+
+    .cont-text {
+        top: -17px;
+    }
+
+    .foot-social ul {
+        margin-left: 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    /*Header*/
+    .logo {
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        height: auto;
+    }
+
+    .head-nav {
+        text-align: center;
+        display: block;
+    }
+
+    .nav-item {
+        display: block;
+        width: 100%;
+    }
+
+    .news-text-wrap h1,
+    .news-text-wrap p {
+        font-size: 2.0em;
+    }
+    /*End Header*/
+
+    .js {
+        font-size: 19px;
+        top: 95px;
+        left: 105px;
+    }
+
+    .sql {
+        font-size: 19px;
+        top: 50px;
+        left: 255px;
+    }
+
+    .web-fund {
+        font-size: 19px;
+        top: 130px;
+        left: 206px;
+    }
+
+    .java {
+        right: 148px;
+        font-size: 19px;
+        top: 200px;
+    }
+
+    .c-sharp {
+        font-weight: 900;
+        font-size: 29px;
+        top: 190px;
+        left: 159px;
+    }
+
+    .php {
+        font-size: 19px;
+        right: 210px;
+        top: 320px;
+    }
+
+    .thumb .fa {
+        font-size: 5em;
+    }
+
+    .pres-text {
+        font-size: 1.5em;
+    }
+
+    .comm-text h2,
+    .cont-text a {
+        font-size: 1.5em;
+    }
+
+    .comm-wrapper {
+        height: 150px;
+    }
+
+    /*Footer*/
+    .foot-wrap {
+        font-size: 0.9em;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-item,
+    .cont-text {
+        width: 100%;
+    }
+
+    .br{
+        background: none;
+    }
+}
+
+@media all and (max-width: 640px) {
+
+    .news-text-wrap h1,
+    .news-text-wrap p {
+        font-size: 1.9em;
+    }
+
+    .js {
+        font-size: 15px;
+        top: 84px;
+        left: 93px;
+    }
+
+    .sql {
+        font-size: 15px;
+        top: 45px;
+        left: 215px;
+    }
+
+    .web-fund {
+        font-size: 15px;
+        top: 110px;
+        left: 175px;
+    }
+
+    .c-sharp {
+        font-size: 25px;
+        top: 160px;
+        left: 130px;
+    }
+
+    .java {
+        right: 125px;
+        font-size: 15px;
+        top: 180px;
+    }
+
+    .php {
+        font-size: 15px;
+        right: 180px;
+        top: 268px;
+    }
+
+    .pres-text {
+        font-size: 1.2em;
+    }
+
+    .comm-text h2,
+    .cont-text a {
+        font-size: 1.2em;
+    }
+
+    .simple-text,
+    .cont-text,
+    .foot-item {
+        font-size: 1em;
+    }
+
+    .foot-social ul {
+        justify-content: space-evenly;
+    }
+
+    .socials {
+        width: 15%;
+    }
+}
