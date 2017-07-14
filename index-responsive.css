@@ -316,3 +316,67 @@
         width: 15%;
     }
 }
+
+@media all and (max-width: 480px) {
+    /*Header*/
+
+    .nav-item a {
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    /*End Header*/
+
+    .news-text-wrap {
+        width: 100%;
+    }
+
+    .news-text-wrap h1,
+    .news-text-wrap p {
+        font-size: 1.5em;
+    }
+
+    .js {
+        font-size: 14px;
+        top: 60px;
+        left: 55px;
+    }
+
+    .sql {
+        font-size: 14px;
+        top: 35px;
+        left: 155px;
+    }
+
+    .web-fund {
+        font-size: 14px;
+        top: 80px;
+        left: 125px;
+    }
+
+    .java {
+        right: 75px;
+        font-size: 14px;
+        top: 135px;
+    }
+
+    .c-sharp {
+        font-size: 18px;
+        top: 120px;
+        left: 100px;
+    }
+
+    .php {
+        font-size: 14px;
+        right: 140px;
+        top: 200px;
+    }
+
+    .country-title {
+        font-size: 1.2em;
+    }
+
+    .country-text{
+        font-size: 1em;
+    }
+}
